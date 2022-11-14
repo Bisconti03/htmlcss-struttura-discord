@@ -9,7 +9,7 @@
 .container {
 min-width: 1024px;
 margin: 0 auto;
-background-color: orange;
+
 
 }
 .container-flex {
@@ -49,6 +49,47 @@ a {
     border-radius: 25px;
 }
 
+.blue-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: cover;
+    background-color: blue;
+}
+
+.pink-box {
+    background-color: pink;
+    width: 900px;
+    height: 400px;
+
+
+}
+
+.section-1 {
+    display: flex;
+    width: 1024px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 65%;
+    height: 400px;
+    background-color: lightblue;
+}
+
+.h2 {
+    width: 35%;
+    height: 400px;
+    background-color: lightpink;
+}
+
+
+
+
+
 
 
 
@@ -74,4 +115,12 @@ a {
     background-color: aqua;
 
 }
+
+.debug nav {
+    background-color: orange;
+}
+
+
+
+
 

@@ -6,6 +6,51 @@
 }
 
 
+.container {
+min-width: 1024px;
+margin: 0 auto;
+background-color: orange;
+
+}
+.container-flex {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    align-items: center;
+    
+    
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+header{
+    min-width: 1200px; 
+    height: 80px;
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-vari {
+    padding: 10px;
+    margin: 10px;
+}
+
+.button-properties {
+    border-radius: 25px;
+}
+
+
+
 
 
 
@@ -23,6 +68,10 @@
 
 
 /* Debug */
-.debug {
-    
+.debug header{
+    min-width: 1200px; 
+    height: 80px;
+    background-color: aqua;
+
 }
+

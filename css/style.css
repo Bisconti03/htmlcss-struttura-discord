@@ -7,7 +7,7 @@
 
 
 .container {
-min-width: 1024px;
+max-width: 1024px;
 margin: 0 auto;
 
 
@@ -26,12 +26,14 @@ margin: 0 auto;
     justify-content: center;
     justify-content: space-between;
     align-items: center;
+    width: 1024px;
+    
     
     
 }
 
 header{
-    min-width: 1200px; 
+    
     height: 80px;
     background-color: aqua;
 }
@@ -49,12 +51,14 @@ a {
     border-radius: 25px;
 }
 
+
+
 .blue-background {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 500px;
-    width: cover;
+    
     background-color: blue;
 }
 
@@ -68,7 +72,7 @@ a {
 
 .section-1 {
     display: flex;
-    width: 1024px;
+    
     height: 500px;
     align-items: center;
     justify-content: center;
@@ -89,8 +93,8 @@ a {
 
 .section-2 {
     display: flex;
-    width: 1024px;
-    height: 800px;
+    
+    min-height: 800px;
     align-items: center;
     justify-content: center;
 }
@@ -101,6 +105,49 @@ a {
     background-color: green;
 }
 
+.section-3 {
+    display: flex;
+    min-height: 500px;
+}
+
+.salmon-box {
+    background-color: salmon;
+    width: 30%;
+}
+
+.cyan-box {
+    background-color: cyan;
+    width: 17.5%;
+}
+
+.margin-hr {
+    margin: 20px 0;
+}
+
+.footer-flex {
+    
+    display: flex;
+    background-color: aqua;
+    min-height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.logo-footer {
+    align-self: center;
+    min-height: 30px;
+    background-color: beige;
+    
+}
+
+.button-footer {
+    align-self: center;
+    min-height: 30px;
+    background-color: beige;
+
+}
 
 
 
